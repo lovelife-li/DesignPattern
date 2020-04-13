@@ -14,7 +14,7 @@ public class Start {
 
         Operation operation = OperationFactory.createOperation("/");
         operation.numberA = new BigDecimal(15);
-        operation.numberB = new BigDecimal(0);
+        operation.numberB = new BigDecimal(1);  // 没有判断0
         BigDecimal result = operation.getResult();
         System.out.println(result.doubleValue());
 

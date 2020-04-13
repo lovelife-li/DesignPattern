@@ -15,6 +15,7 @@ public class Client {
         operation.numberA = new BigDecimal(1);
         operation.numberB = new BigDecimal(2);
         BigDecimal result = operation.getResult();
+        System.out.println(result.intValue());
 
     }
 }
