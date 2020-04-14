@@ -1,10 +1,11 @@
-package com.study.memento.two;
+package com.study.memento.pattern;
 
 import lombok.Data;
 
 /**
  * @author ldb
  * @date 2019-11-08 15:45
+ * Originator（发起人）：负责创建一个备忘录Memento，用以记录当前时刻它的内部状态，
  */
 @Data
 public class Originator {

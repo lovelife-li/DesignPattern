@@ -1,4 +1,4 @@
-package com.study.memento.two;
+package com.study.memento.pattern;
 
 import lombok.Getter;
 
