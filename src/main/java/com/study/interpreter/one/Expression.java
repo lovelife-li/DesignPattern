@@ -14,7 +14,7 @@ public abstract class Expression {
             String playKey = context.getText().substring(0, 1);
             context.setText(context.getText().substring(2));
             double playValue = Double.valueOf(context.getText().substring(0, context.getText().indexOf(" ")));
-            context.setText(context.getText().substring(context.getText().indexOf(" " + 1)));
+            context.setText(context.getText().substring(context.getText().indexOf(" ") + 1));
             execute(playKey, playValue);
         }
     }

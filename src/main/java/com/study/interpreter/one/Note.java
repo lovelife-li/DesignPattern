@@ -3,14 +3,14 @@ package com.study.interpreter.one;
 /**
  * @author ldb
  * @date 2020/04/15
- * @description 音乐符
+ * @description 音符类
  */
 public class Note extends Expression {
 
     @Override
     public void execute(String key, double value) {
-        String note = "" ;
-        switch (key){
+        String note = "";
+        switch (key) {
             case "C":
                 note = "1";
                 break;
@@ -34,6 +34,6 @@ public class Note extends Expression {
                 break;
 
         }
-        System.out.println(note);
+        System.out.print(note + " ");
     }
 }

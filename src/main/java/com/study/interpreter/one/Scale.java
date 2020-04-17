@@ -9,8 +9,8 @@ public class Scale extends Expression {
 
     @Override
     public void execute(String key, double value) {
-        String scale = "" ;
-        switch (Double.valueOf(value).intValue()){
+        String scale = "";
+        switch (Double.valueOf(value).intValue()) {
             case 1:
                 scale = "低音";
                 break;
@@ -23,6 +23,6 @@ public class Scale extends Expression {
 
 
         }
-        System.out.println(scale);
+        System.out.print(scale + " ");
     }
 }
